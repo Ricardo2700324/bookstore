@@ -16,6 +16,7 @@ import com.ricardo.bookstore.services.exceptions.ObjectNotFoundException;
 @Service
 public class CategoriaService {
 	
+	
 	@Autowired
 	private CategoriaRepository repository;
 
@@ -50,6 +51,5 @@ public class CategoriaService {
 		}
 		
 	}
-	
 	
 }
